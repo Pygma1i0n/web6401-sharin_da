@@ -12,3 +12,15 @@
 > «People die if they're killed.» — Emiya Shirou (Fate/stay night)
 
 ![Картинка](https://i.pinimg.com/736x/54/5f/7a/545f7a93b877b2f88b79a3221f9bec71.jpg)
+
+# Лабораторная работа № 2 — Вики
+
+
+## Структура
+
+- `index.html` — главная страница;
+- `items.html` — каталог предметов;
+- `item.html` — Пузановый крем;
+- `css/style.css` — оформление всех страниц;
+- `images/` — папка для изображений.
+
