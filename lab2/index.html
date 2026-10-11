@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вики — Главная</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="На главную">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <span class="brand-name">Вики</span>
+    </a>
+    <nav class="top-nav" aria-label="Основная навигация">
+      <a class="top-link active" href="index.html">Главная</a>
+      <a class="top-link" href="#">Персонажи</a>
+      <a class="top-link" href="#">Мир</a>
+      <a class="top-link" href="items.html">Предметы</a>
+    </nav>
+    <div class="header-space"></div>
+  </header>
+
+  <div class="page-layout">
+    <input class="sidebar-toggle" type="checkbox" id="sidebar-toggle" checked>
+    <aside class="sidebar">
+      <label class="sidebar-handle" for="sidebar-toggle" title="Свернуть или развернуть меню"><span class="handle-icon">☰</span><span class="handle-label">Навигация</span></label>
+      <div class="sidebar-content">
+        <h2 class="side-heading">Разделы</h2>
+        <nav class="side-nav" aria-label="Разделы сайта">
+          <a class="side-link" href="index.html"><span class="side-icon">⌂</span><span>Главная</span></a>
+          <a class="side-link active" href="characters.html"><span class="side-icon">♙</span><span>Персонажи</span></a>
+          <a class="side-link" href="#"><span class="side-icon">◉</span><span>Мир</span></a>
+          <a class="side-link" href="#"><span class="side-icon">✧</span><span>Предметы</span></a>
+        </nav>
+                <h2 class="side-heading quick-heading">Быстрые ссылки</h2>
+        <nav class="quick-links" aria-label="Быстрые ссылки">
+          <a href="#">Список персонажей <span>›</span></a>
+          <a href="#">Карта мира <span>›</span></a>
+          <a href="items.html">Предметы <span>›</span></a>
+      </div>
+    </aside>
+
+
+    <main class="main-panel">
+      <div class="eyebrow">Энциклопедия</div>
+      <h1>Добро пожаловать</h1>
+      <div class="ornament-rule"><span>✧</span></div>
+      <p class="lead">Добро пожаловать в энциклопедию. Здесь вы найдете информацию о персонажах, локациях и событиях нашего мира.
+      </p>
+
+      <section class="feature-panel">
+        <div class="feature-copy">
+          <span class="eyebrow">Главный материал</span>
+          <h2>Пузановый крем</h2>
+          <p>Знаменитый пузановый крем, которым славиться Королевство Свон. </p>
+          <a class="action-link" href="item.html">Открыть раздел <span>→</span></a>
+        </div>
+        <div class="feature-symbol" aria-hidden="true">✦</div>
+      </section>
+
+      <section class="section-block">
+        <h2 class="section-title">Основные разделы</h2>
+        <div class="section-grid">
+          <a class="section-card" href="#">
+            <span class="card-symbol">♙</span><h3>Персонажи</h3>
+            <p>Герои, антагонисты и ключевые фигуры.</p><span class="card-more">Перейти →</span>
+          </a>
+          <a class="section-card" href="#">
+            <span class="card-symbol">◉</span><h3>Мир</h3>
+            <p>Локации, государства и история.</p><span class="card-more">Перейти →</span>
+          </a>
+          <a class="section-card" href="items.html">
+            <span class="card-symbol">✧</span><h3>Предметы</h3>
+            <p>Системы, силы и их носители.</p><span class="card-more">Перейти →</span>
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer"><span>Вики</span><i>✦</i><a href="index.html">Главная</a><i>✦</i><a href="characters.html">Персонажи</a></footer>
+</body>
+</html>
